@@ -28,6 +28,6 @@ This feature helps choose shorter sentences into the summary instead of long sen
 We trained a Logistic Regression model with a sigmoid activation function on our training data. This model calculates a score for each sentence in the input text based on the input features. We could create a summary of a fixed length of characters (1600 characters) using the sentences of maximum 
 scores. Else the summary length could be derived from the input text length (half of the input text length). Else a threshold on the sentence score could determine whether the sentence should appear in the summary or not. Below are the results obtained on the validation data using the above-mentioned techniques. Based on the ROUGE values, we concluded that using a threshold on the scores worked best on balancing the recall and precision than the other two suggested methods.
 
-
+![Summary Creation](https://github.com/aishwaryamuthuvel/Text-Summarization/blob/main/Camparison_summaryCreation.png?raw=true)
 
 
