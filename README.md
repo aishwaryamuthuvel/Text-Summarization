@@ -36,6 +36,8 @@ scores. Else the summary length could be derived from the input text length (hal
 We used the model obtained on our test data and obtained the below performance. We used the ROUGE metric to compare the generated summary and 
 the reference summary. We got an average **recall of 71%**, a **precision of 62%** and a **cosine similarity of 98%**.
 
+![Results](https://github.com/aishwaryamuthuvel/Text-Summarization/blob/main/Results_table.png?raw=true)
+
 
 
 
