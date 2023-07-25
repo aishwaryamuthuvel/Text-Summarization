@@ -8,11 +8,14 @@ We obtained our dataset from Kaggle - the BBC News Summary dataset found [here](
 ## Method
 Below is a flowchart outlining how to create a text summary.
 
-![alt text](https://github.com/aishwaryamuthuvel/Text-Summarization/blob/main/Method_flowchart.jpg?raw=true)
+![alt text](https://github.com/aishwaryamuthuvel/Text-Summarization/blob/main/Method_flowchart.png?raw=true)
+
+### Pre-processing and Feature Extraction 
+As pre-processing steps, the text was downcased and then tokenized into sentences and words. Below are the features extracted for model training.
+
+#### Cosine Similarity
+This feature is calculated for each sentence in the text. It gives a measure of how closely a sentence in the given text is associated with the text. We use a Word2Vec model to evaluate the text_vector and the sentence_vector and then we calculate the cosine similarity between both the vectors to arrive at the cosine similarity of the sentence. The Word2Vec model needs a corpus to train on. We created a corpus by combining our training corpus along with the NLTK Brown and NLTK Reuters corpora to train the Word2Vec model.
 
 
-
-
-###
 
 
